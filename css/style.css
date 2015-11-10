@@ -1,54 +1,80 @@
 /* Navigation Section */
 .top-navigation {
     background-color:#fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1 px solid #ddd;
+    z-index: 9999;
 }
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+    height: 4.375rem;
+    
 }
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+    color: #4c5058;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+
+
 }
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 1.563rem;
+
+
 }
 .top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
+    
 }
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 .logo {
-	margin-left: 125px;
 	height: 4.375rem;
+    margin-left: 275px;
+
 }
 .big-button {
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 16px 26px;
-    line-height: 1.33;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    color: white;
+    font-size: 1.125rem;
+    text-align: center;
 } 
 .big-button:hover {
 	background-color: #333;
 	cursor: pointer;
 }
 .introduction {
-    background: url('../images/background-image.jpg') no-repeat center center fixed;
-  	-webkit-background-size:cover;
- 	-moz-background-size: cover;
-	-o-background-size: cover;
- 	background-size: cover;
-    background-position: center bottom;
+    background: url('../images/background-image.jpg');
+  	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
+    text-align: center;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
