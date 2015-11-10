@@ -8,6 +8,8 @@
 }
 .top-navigation > .content {
     height: 4.375rem;
+    width: 70%;
+    margin: auto;
     
 }
 .top-navigation .links {
@@ -36,7 +38,7 @@
 }
 .logo {
 	height: 4.375rem;
-    margin-left: 275px;
+    /*margin-left: 275px;*/
 
 }
 .big-button {
