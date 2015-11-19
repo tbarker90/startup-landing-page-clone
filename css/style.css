@@ -8,11 +8,16 @@ body {
     font-family:'Roboto';
 }
 
-/*Navigation Section*/
+/*Navigation Section - Need position to be "fixed"*/ 
 }
 .top-navigation {
-    background-color: black;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
+
 .top-navigation .content {
     width:700px;
     height: 70px;
@@ -23,7 +28,7 @@ body {
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+    
 }
 .top-navigation .links li {
     display: inline-block;
@@ -42,7 +47,6 @@ body {
 }
 
 /*Introduction/Background Image*/
-/*Need further explantion, some are not neccessary. Need to know how to chop the top off*/
 .introduction {
     background-image: url('../images/background-image.jpg');
     background-repeat: no-repeat;
@@ -84,18 +88,19 @@ body {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+/* Main content*/
 .main-content {
     text-align: center;
 }
 .main-content__title {
     margin-top: 120px;
-    font-size: 50px;
+    font-size: 2.75rem;
     font-weight: 300;
 }
 .main-content__icon-list__item {
     display: inline-block;
     margin-right: 20px;
-    width: 250px;
+    width: 300px;
 
 }
 .main-content__icon-list__item img {
@@ -106,4 +111,53 @@ body {
     width: 80%;
     margin: 30px auto 0;
     font-size: 25px;
+    white-space: nowrap;
+}
+/* Footer */
+
+.social .icons {
+    text-align: center;
+    margin-right: 4rem;
+    margin-bottom: 9rem;
+    margin-top: -1.5rem; 
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #838994;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.social .twitter {
+    color: #55acee;
+
+}
+.social .facebook {
+    color: #4c66a4;
+
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social h5 {
+    font: inherit;
+    margin-right: 1rem;
+}
+hr {
+    margin-top: 10rem;
+}
+.social .copy {
+    margin-right: 1.5rem;
+    position: relative;
+    bottom: 9rem;
+    font-size: 0.9rem;
+    color: #838994;
+    
 }
