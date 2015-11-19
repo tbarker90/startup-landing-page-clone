@@ -5,7 +5,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;}
 body {
-    font:'Roberto', sans-serif;
+    font-family:'Roboto';
 }
 
 /*Navigation Section*/
@@ -20,7 +20,6 @@ body {
   }
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -48,7 +47,7 @@ body {
     background-image: url('../images/background-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 41rem;
     padding: 11rem 0;
     text-align: center;
 }
@@ -56,13 +55,17 @@ body {
 .introduction .content h3 {
     text-align: center;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 
 
 }
 .introduction .content h1 {
     margin-top: 5rem;
     font-size: 3.125rem;
+}
+.introduction .content h3 {
+    margin-top: -1rem;
+    font-size: 1.563rem;
 }
 .big-button {
     width: 9.688rem;
@@ -81,8 +84,26 @@ body {
     border-color: #cf3d0e;
     cursor: pointer;
 }
-.cases {
+.main-content {
     text-align: center;
-    margin-top: 7.875rem;
-    font-size: 2.75rem;
+}
+.main-content__title {
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.main-content__icon-list__item {
+    display: inline-block;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.main-content__icon-list__item img {
+    width: 127px;
+}
+.main-content__icon-list__item span {
+    display: block;
+    width: 80%;
+    margin: 30px auto 0;
+    font-size: 25px;
 }
